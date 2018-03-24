@@ -5,7 +5,7 @@
 
     <hero-image-flush/>
 
-    <column-text-button/>
+    <introduction/>
 
     <background-image-text/>
 
@@ -121,11 +121,11 @@
   import EvenColumn200 from './email-body/EvenColumn200';
   import EvenColum310 from './email-body/EvenColum310';
   import BackgroundImageText from './email-body/BackgroundImageText';
-  import ColumnTextButton from './email-body/ColumnTextButton';
+  import Introduction from './email-body/Introduction';
 
   export default {
     components: {
-      ColumnTextButton,
+      Introduction,
       BackgroundImageText,
       EvenColum310,
       EvenColumn200,

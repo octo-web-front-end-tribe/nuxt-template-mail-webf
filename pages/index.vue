@@ -1,9 +1,6 @@
 <template>
   <div>
     <preheader-text/>
-
-    <text-spacing-hack/>
-
     <!--
         Set the email width. Defined in two places:
         1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 680px.

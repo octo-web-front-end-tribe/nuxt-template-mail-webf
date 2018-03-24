@@ -6,23 +6,22 @@
         <tr>
           <td style="padding: 40px 40px 20px; text-align: center;">
             <h1
-              style="margin: 0; font-family: sans-serif; font-size: 24px; line-height: 125%; color: #333333; font-weight: normal;">
-              Template pour la NewsLetter de WebF</h1>
+              style="margin: 0; margin-bottom: 10px; font-family: sans-serif; font-size: 30px; line-height: 125%; color: #333333; font-weight: bold;">
+              {{title}}
+            </h1>
+            <h2
+              style="margin: 0; font-family: sans-serif; font-size: 18px; line-height: 125%; color: #001849; font-weight: normal;">
+              {{subTitle}}
+            </h2>
           </td>
         </tr>
         <tr>
           <td
             style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
-            <p style="margin: 0;">
-              Bonjour,
-              <br>
-              <br>
-              Je suis le template de mail pour la Newsletter de WebF. C'est une première version mais ça devrait être prometteur.
-              Je suis écrit totalement en <b>Nuxt</b> et présent sur Github.
-            </p>
+            <p style="margin: 0;" v-html="corpus"></p>
           </td>
         </tr>
-        <tr>
+        <tr style="display: none">
           <td
             style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
             <email-button texte="Découvre mes sources" urlLink="https://google.com"/>
@@ -36,12 +35,22 @@
 </template>
 
 <script>
-    import EmailButton from './EmailButton';
+  import VueMarkdown from 'vue-markdown';
 
-    export default {
-      components: { EmailButton },
-      name: 'column-text-button'
-    };
+  import EmailButton from './EmailButton';
+  import config from '@/static/config.json';
+
+  export default {
+    components: {
+      EmailButton,
+      VueMarkdown
+    },
+    name: 'introduction',
+
+    data() {
+      return config.introduction;
+    }
+  };
 </script>
 
 <style scoped>
