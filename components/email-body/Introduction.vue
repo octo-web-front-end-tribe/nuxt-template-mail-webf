@@ -18,7 +18,9 @@
         <tr>
           <td
             style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
-            <p style="margin: 0;" v-html="corpus"></p>
+            <p style="margin: 0;">
+              <intro></intro>
+            </p>
           </td>
         </tr>
         <tr style="display: none">
@@ -38,12 +40,15 @@
   import VueMarkdown from 'vue-markdown';
 
   import EmailButton from './EmailButton';
-  import config from '@/static/config.json';
+  import config from '@/contents/config.json';
+
+  import Intro from '@/contents/introduction.md';
 
   export default {
     components: {
       EmailButton,
-      VueMarkdown
+      VueMarkdown,
+      Intro
     },
     name: 'introduction',
 
