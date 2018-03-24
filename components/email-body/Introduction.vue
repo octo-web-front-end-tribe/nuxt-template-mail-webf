@@ -37,8 +37,6 @@
 </template>
 
 <script>
-  import VueMarkdown from 'vue-markdown';
-
   import EmailButton from './EmailButton';
   import config from '@/contents/config.json';
 
@@ -47,7 +45,6 @@
   export default {
     components: {
       EmailButton,
-      VueMarkdown,
       Intro
     },
     name: 'introduction',
