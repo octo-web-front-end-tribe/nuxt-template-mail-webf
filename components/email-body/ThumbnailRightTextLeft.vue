@@ -26,7 +26,7 @@
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                 <tr>
                   <td dir="ltr" style="padding: 0 10px 10px 10px;">
-                    <img src="http://placehold.it/200" width="200" height="" border="0" alt="alt_text"
+                    <img :src="srcImage" width="200" height="" border="0" alt="alt_text"
                          class="center-on-narrow"
                          style="width: 100%; max-width: 200px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
                   </td>
@@ -47,11 +47,10 @@
                       class="center-on-narrow">
                     <h2
                       style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 125%; color: #333333; font-weight: bold;">
-                      Class aptent taciti sociosqu</h2>
-                    <p style="margin: 0 0 10px 0;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor.
-                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                      himenaeos.</p>
-                    <email-button/>
+                      {{title}}</h2>
+                    <p style="margin: 0 0 10px 0;" v-html="content"></p>
+                    <br>
+                    <email-button  :texte="linkButton.title" :url-link="linkButton.url" align-button="center"/>
                   </td>
                 </tr>
               </table>
@@ -76,10 +75,18 @@
 
 <script>
     import EmailButton from './EmailButton';
+    import Drive from '@/services/linkDrive';
 
     export default {
       components: { EmailButton },
-      name: 'thumbnail-right-text-left'
+      name: 'thumbnail-right-text-left',
+      props: ['title', 'content', 'image', 'linkButton'],
+
+      data () {
+        return {
+          srcImage: Drive.linkDrive(this.image)
+        }
+      }
     };
 </script>
 

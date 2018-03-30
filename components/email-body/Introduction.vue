@@ -40,7 +40,7 @@
   import EmailButton from './EmailButton';
   import config from '@/contents/config.json';
 
-  import Intro from '@/contents/introduction.md';
+  import Intro from '@/contents/1_introduction.md';
 
   export default {
     components: {

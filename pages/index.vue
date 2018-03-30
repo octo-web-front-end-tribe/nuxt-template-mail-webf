@@ -26,7 +26,6 @@
       </table>
       <![endif]-->
     </div>
-
     <full-bleed-background/>
   </div>
 </template>
