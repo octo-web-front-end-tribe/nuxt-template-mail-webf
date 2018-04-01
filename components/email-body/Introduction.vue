@@ -6,18 +6,18 @@
         <tr>
           <td style="padding: 40px 40px 20px; text-align: center;">
             <h1
-              style="margin: 0; margin-bottom: 10px; font-family: sans-serif; font-size: 35px; line-height: 125%; color: #333333; font-weight: bold;">
+              style="margin: 0; margin-bottom: 10px; font-family: sans-serif; font-size: 35px; line-height: 125%; color: #001849; font-weight: bold;">
               {{title}}
             </h1>
             <h2
-              style="margin: 0; font-family: sans-serif; font-size: 20px; font-style: italic; line-height: 125%; color: #001849; font-weight: normal;">
+              style="margin: 0; font-family: sans-serif; font-size: 20px; font-style: italic; line-height: 125%; color: rgb(20, 160, 192); font-weight: normal;">
               {{subTitle}}
             </h2>
           </td>
         </tr>
         <tr>
           <td
-            style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
+            style="padding: 0 40px 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
             <p style="margin: 0;">
               <intro></intro>
             </p>

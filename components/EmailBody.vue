@@ -7,51 +7,55 @@
 
     <introduction/>
 
+    <column-text component-name="Organisation"/>
+
+    <!-- 2 Even Columns : BEGIN -->
+    <tr>
+      <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">
+        <!--[if mso]>
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+          <tr>
+            <td align="center" valign="top" width="660">
+        <![endif]-->
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
+               style="max-width:660px;">
+          <tr>
+            <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+              <!--[if mso]>
+              <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+                <tr>
+                  <td align="left" valign="top" width="330">
+              <![endif]-->
+              <even-colum310 :journee="journees[0]"/>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top" width="330">
+              <![endif]-->
+              <even-colum310 :journee="journees[1]"/>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+        </table>
+        <!--[if mso]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
+    <!--&lt;!&ndash; 2 Even Columns : END &ndash;&gt;-->
+
+    <column-text component-name="Invitation"/>
+
     <column-text component-name="League"/>
 
     <column-text component-name="RetD"/>
 
     <column-text component-name="Recrutement"/>
-
-    <!-- 2 Even Columns : BEGIN -->
-    <!--<tr>-->
-    <!--<td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">-->
-    <!--&lt;!&ndash;[if mso]>-->
-    <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
-    <!--<tr>-->
-    <!--<td align="center" valign="top" width="660">-->
-    <!--<![endif]&ndash;&gt;-->
-    <!--<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"-->
-    <!--style="max-width:660px;">-->
-    <!--<tr>-->
-    <!--<td align="center" valign="top" style="font-size:0; padding: 10px 0;">-->
-    <!--&lt;!&ndash;[if mso]>-->
-    <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
-    <!--<tr>-->
-    <!--<td align="left" valign="top" width="330">-->
-    <!--<![endif]&ndash;&gt;-->
-    <!--<even-colum310/>-->
-    <!--&lt;!&ndash;[if mso]>-->
-    <!--</td>-->
-    <!--<td align="left" valign="top" width="330">-->
-    <!--<![endif]&ndash;&gt;-->
-    <!--<even-colum310/>-->
-    <!--&lt;!&ndash;[if mso]>-->
-    <!--</td>-->
-    <!--</tr>-->
-    <!--</table>-->
-    <!--<![endif]&ndash;&gt;-->
-    <!--</td>-->
-    <!--</tr>-->
-    <!--</table>-->
-    <!--&lt;!&ndash;[if mso]>-->
-    <!--</td>-->
-    <!--</tr>-->
-    <!--</table>-->
-    <!--<![endif]&ndash;&gt;-->
-    <!--</td>-->
-    <!--</tr>-->
-    <!--&lt;!&ndash; 2 Even Columns : END &ndash;&gt;-->
 
     <!--&lt;!&ndash; 3 Even Columns : BEGIN &ndash;&gt;-->
     <tr>
@@ -71,7 +75,7 @@
                   <td align="left" valign="top" width="220">
               <![endif]-->
               <div style="text-align:left">
-                <h2 style="margin: 0px 30px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(51, 51, 51); font-weight: bold;">Mouvements dans la tribu</h2>
+                <h2 style="margin: 0px 30px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">Mouvements dans la tribu</h2>
               </div>
               <even-column200 :mouvement="mouvements[0]"/>
               <!--[if mso]>
@@ -145,6 +149,7 @@
     data() {
       return {
         parisWeb: config.parisWeb,
+        journees: config.journees,
         vuejsAmsterdam: config.vuejsAmsterdam,
         mouvements: config.mouvements,
         weo2018: config.weo2018
