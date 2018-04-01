@@ -1,7 +1,7 @@
 <template>
   <!-- Email Footer : BEGIN -->
   <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
-         style="max-width: 680px;">
+         style="max-width: 780px;">
     <tr>
       <td
         style="padding: 40px 10px; font-family: sans-serif; font-size: 12px; line-height: 140%; text-align: center; color: #888888;"

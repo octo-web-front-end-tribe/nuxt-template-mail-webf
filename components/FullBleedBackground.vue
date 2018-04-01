@@ -3,7 +3,7 @@
   <table role="presentation" bgcolor="#001849" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
     <tr>
       <td valign="top" align="center">
-        <div style="max-width: 680px; margin: auto;" class="email-container">
+        <div style="max-width: 780px; margin: auto;" class="email-container">
           <!--[if mso]>
           <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
             <tr>

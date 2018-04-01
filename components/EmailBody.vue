@@ -1,7 +1,7 @@
 <template>
   <!-- Email Body : BEGIN -->
   <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
-         style="max-width: 680px;" class="email-container">
+         style="max-width: 780px;" class="email-container">
 
     <hero-image-flush/>
 
@@ -13,16 +13,16 @@
     <tr>
       <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">
         <!--[if mso]>
-        <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780">
           <tr>
-            <td align="center" valign="top" width="660">
+            <td align="center" valign="top" width="780">
         <![endif]-->
         <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-               style="max-width:660px;">
+               style="max-width:780px;">
           <tr>
             <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
               <!--[if mso]>
-              <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+              <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780">
                 <tr>
                   <td align="left" valign="top" width="330">
               <![endif]-->
@@ -63,21 +63,21 @@
     <tr>
       <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%" style="padding: 10px 0;">
         <!--[if mso]>
-        <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780">
           <tr>
-            <td align="center" valign="top" width="660">
+            <td align="center" valign="top" width="780">
         <![endif]-->
         <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-               style="max-width:660px;">
+               style="max-width:780px;">
           <tr>
             <td align="center" valign="top" style="font-size:0;">
               <!--[if mso]>
-              <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+              <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780">
                 <tr>
                   <td align="left" valign="top" width="220">
               <![endif]-->
               <div style="text-align:left">
-                <h2 style="margin: 0px 30px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">Mouvements dans la tribu</h2>
+                <h2 style="margin: 0px 40px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">Mouvements dans la tribu</h2>
               </div>
               <even-column200 :mouvement="mouvements[0]"/>
               <!--[if mso]>

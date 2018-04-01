@@ -10,7 +10,7 @@
               style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 125%; color:rgb(20, 160, 192); font-weight: bold;">
               {{title}}</h1>
             <div style="text-align: center;">
-              <img style="width: 90%" :src="srcImage">
+              <img style="width: 80%" :src="srcImage">
             </div>
           </td>
         </tr>
