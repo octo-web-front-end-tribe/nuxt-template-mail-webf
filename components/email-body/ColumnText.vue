@@ -7,7 +7,7 @@
           <td
             style="padding: 40px; padding-top: 0px; padding-bottom: 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
             <p style="margin: 0 0 10px 0;">
-              <component :is="name"/>
+              <component :is="name" class="vue-component"/>
             </p>
           </td>
         </tr>
@@ -22,7 +22,6 @@
   import League from '@/contents/3_league.md';
   import RetD from '@/contents/4_retd.md';
   import Recrutement from '@/contents/5_recrutement.md';
-  import Mouvement from '@/contents/6_mouvements.md';
 
   export default {
     name: 'column-text',
@@ -30,8 +29,7 @@
       ParisWeb,
       League,
       RetD,
-      Recrutement,
-      Mouvement
+      Recrutement
     },
 
     props: ['componentName'],
@@ -44,6 +42,15 @@
   };
 </script>
 
-<style scoped>
-
+<style lang="scss">
+  .vue-component {
+    h1 {
+      color: rgb(51, 51, 51);
+      font-size: 24px
+    }
+    h2 {
+      color: rgb(51, 51, 51);
+      font-size: 20px
+    }
+  }
 </style>

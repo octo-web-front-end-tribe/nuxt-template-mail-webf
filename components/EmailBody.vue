@@ -13,98 +13,101 @@
 
     <column-text component-name="Recrutement"/>
 
-    <column-text component-name="Mouvement"/>
-
     <!-- 2 Even Columns : BEGIN -->
     <!--<tr>-->
-      <!--<td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">-->
-        <!--&lt;!&ndash;[if mso]>-->
-        <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
-          <!--<tr>-->
-            <!--<td align="center" valign="top" width="660">-->
-        <!--<![endif]&ndash;&gt;-->
-        <!--<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"-->
-               <!--style="max-width:660px;">-->
-          <!--<tr>-->
-            <!--<td align="center" valign="top" style="font-size:0; padding: 10px 0;">-->
-              <!--&lt;!&ndash;[if mso]>-->
-              <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
-                <!--<tr>-->
-                  <!--<td align="left" valign="top" width="330">-->
-              <!--<![endif]&ndash;&gt;-->
-              <!--<even-colum310/>-->
-              <!--&lt;!&ndash;[if mso]>-->
-              <!--</td>-->
-              <!--<td align="left" valign="top" width="330">-->
-              <!--<![endif]&ndash;&gt;-->
-              <!--<even-colum310/>-->
-              <!--&lt;!&ndash;[if mso]>-->
-              <!--</td>-->
-              <!--</tr>-->
-              <!--</table>-->
-              <!--<![endif]&ndash;&gt;-->
-            <!--</td>-->
-          <!--</tr>-->
-        <!--</table>-->
-        <!--&lt;!&ndash;[if mso]>-->
-        <!--</td>-->
-        <!--</tr>-->
-        <!--</table>-->
-        <!--<![endif]&ndash;&gt;-->
-      <!--</td>-->
+    <!--<td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">-->
+    <!--&lt;!&ndash;[if mso]>-->
+    <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
+    <!--<tr>-->
+    <!--<td align="center" valign="top" width="660">-->
+    <!--<![endif]&ndash;&gt;-->
+    <!--<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"-->
+    <!--style="max-width:660px;">-->
+    <!--<tr>-->
+    <!--<td align="center" valign="top" style="font-size:0; padding: 10px 0;">-->
+    <!--&lt;!&ndash;[if mso]>-->
+    <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
+    <!--<tr>-->
+    <!--<td align="left" valign="top" width="330">-->
+    <!--<![endif]&ndash;&gt;-->
+    <!--<even-colum310/>-->
+    <!--&lt;!&ndash;[if mso]>-->
+    <!--</td>-->
+    <!--<td align="left" valign="top" width="330">-->
+    <!--<![endif]&ndash;&gt;-->
+    <!--<even-colum310/>-->
+    <!--&lt;!&ndash;[if mso]>-->
+    <!--</td>-->
+    <!--</tr>-->
+    <!--</table>-->
+    <!--<![endif]&ndash;&gt;-->
+    <!--</td>-->
+    <!--</tr>-->
+    <!--</table>-->
+    <!--&lt;!&ndash;[if mso]>-->
+    <!--</td>-->
+    <!--</tr>-->
+    <!--</table>-->
+    <!--<![endif]&ndash;&gt;-->
+    <!--</td>-->
     <!--</tr>-->
     <!--&lt;!&ndash; 2 Even Columns : END &ndash;&gt;-->
 
     <!--&lt;!&ndash; 3 Even Columns : BEGIN &ndash;&gt;-->
-    <!--<tr>-->
-      <!--<td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%" style="padding: 10px 0;">-->
-        <!--&lt;!&ndash;[if mso]>-->
-        <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
-          <!--<tr>-->
-            <!--<td align="center" valign="top" width="660">-->
-        <!--<![endif]&ndash;&gt;-->
-        <!--<table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"-->
-               <!--style="max-width:660px;">-->
-          <!--<tr>-->
-            <!--<td align="center" valign="top" style="font-size:0;">-->
-              <!--&lt;!&ndash;[if mso]>-->
-              <!--<table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">-->
-                <!--<tr>-->
-                  <!--<td align="left" valign="top" width="220">-->
-              <!--<![endif]&ndash;&gt;-->
-              <!--<even-column200/>-->
-              <!--&lt;!&ndash;[if mso]>-->
-              <!--</td>-->
-              <!--<td align="left" valign="top" width="220">-->
-              <!--<![endif]&ndash;&gt;-->
-              <!--<even-column200/>-->
-              <!--&lt;!&ndash;[if mso]>-->
-              <!--</td>-->
-              <!--<td align="left" valign="top" width="220">-->
-              <!--<![endif]&ndash;&gt;-->
-              <!--<even-column200/>-->
-              <!--&lt;!&ndash;[if mso]>-->
-              <!--</td>-->
-              <!--</tr>-->
-              <!--</table>-->
-              <!--<![endif]&ndash;&gt;-->
-            <!--</td>-->
-          <!--</tr>-->
-        <!--</table>-->
-        <!--&lt;!&ndash;[if mso]>-->
-        <!--</td>-->
-        <!--</tr>-->
-        <!--</table>-->
-        <!--<![endif]&ndash;&gt;-->
-      <!--</td>-->
-    <!--</tr>-->
+    <tr>
+      <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%" style="padding: 10px 0;">
+        <!--[if mso]>
+        <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+          <tr>
+            <td align="center" valign="top" width="660">
+        <![endif]-->
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
+               style="max-width:660px;">
+          <tr>
+            <td align="center" valign="top" style="font-size:0;">
+              <!--[if mso]>
+              <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="660">
+                <tr>
+                  <td align="left" valign="top" width="220">
+              <![endif]-->
+              <div style="text-align:left">
+                <h2 style="margin: 0px 30px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(51, 51, 51); font-weight: bold;">Mouvements dans la tribu</h2>
+              </div>
+              <even-column200 :mouvement="mouvements[0]"/>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top" width="220">
+              <![endif]-->
+              <even-column200 :mouvement="mouvements[1]"/>
+              <!--[if mso]>
+              </td>
+              <td align="left" valign="top" width="220">
+              <![endif]-->
+              <even-column200 :mouvement="mouvements[2]"/>
+              <!--[if mso]>
+              </td>
+              </tr>
+              </table>
+              <![endif]-->
+            </td>
+          </tr>
+        </table>
+        <!--[if mso]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+      </td>
+    </tr>
     <!-- 3 Even Columns : END -->
 
-    <thumbnail-left-text-right :title='parisWeb.title' :content="parisWeb.content" :image="parisWeb.image" :linkButton="parisWeb.linkButton"/>
+    <thumbnail-left-text-right :title='parisWeb.title' :content="parisWeb.content" :image="parisWeb.image"
+                               :linkButton="parisWeb.linkButton"/>
 
-    <thumbnail-right-text-left :title='vuejsAmsterdam.title' :content="vuejsAmsterdam.content" :image="vuejsAmsterdam.image" :linkButton="vuejsAmsterdam.linkButton"/>
+    <thumbnail-right-text-left :title='vuejsAmsterdam.title' :content="vuejsAmsterdam.content"
+                               :image="vuejsAmsterdam.image" :linkButton="vuejsAmsterdam.linkButton"/>
 
-    <imageFullPage :title="weo2018.title" :image="weo2018.image" />
+    <imageFullPage :title="weo2018.title" :image="weo2018.image"/>
 
   </table>
   <!-- Email Body : END -->
@@ -143,8 +146,9 @@
       return {
         parisWeb: config.parisWeb,
         vuejsAmsterdam: config.vuejsAmsterdam,
+        mouvements: config.mouvements,
         weo2018: config.weo2018
-      }
+      };
     }
   };
 </script>

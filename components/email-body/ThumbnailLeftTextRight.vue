@@ -46,11 +46,9 @@
                       style="font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; padding: 10px 10px 0; text-align: left;"
                       class="center-on-narrow">
                     <h2
-                      style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 125%; color: #333333; font-weight: bold;">
+                      style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 125%; color: #333333; font-weight: bold;">
                       {{title}}</h2>
-                    <p style="margin: 0 0 10px 0;">
-                      {{content}}
-                    </p>
+                    <p style="margin: 0 0 10px 0;" v-html="content"></p>
                     <br>
                     <email-button :texte="linkButton.title" :url-link="linkButton.url" align-button="center"/>
                   </td>

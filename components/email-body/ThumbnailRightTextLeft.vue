@@ -21,7 +21,7 @@
                 <td align="left" valign="top" width="220" style="width: 220px;">
             <![endif]-->
             <div
-              style="display:inline-block; margin: 0 -2px; max-width: 200px; min-width:160px; vertical-align:top; width:100%;"
+              style="display:inline-block; margin: 0 -2px; max-width: 200px; min-width:160px; vertical-align:bottom; width:100%;"
               class="stack-column">
               <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                 <tr>
@@ -46,7 +46,7 @@
                       style="font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; padding: 10px 10px 0; text-align: left;"
                       class="center-on-narrow">
                     <h2
-                      style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 18px; line-height: 125%; color: #333333; font-weight: bold;">
+                      style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 125%; color: #333333; font-weight: bold;">
                       {{title}}</h2>
                     <p style="margin: 0 0 10px 0;" v-html="content"></p>
                     <br>
