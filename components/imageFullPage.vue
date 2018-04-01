@@ -4,7 +4,8 @@
       <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
         <tr>
           <td
-            style="padding: 30px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
+            :style="'padding:'+ padd"
+            style="font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
             <h1
               style="margin: 0 0 10px 0; font-family: sans-serif; font-size: 24px; line-height: 125%; color:rgb(20, 160, 192); font-weight: bold;">
               {{title}}</h1>
@@ -24,11 +25,12 @@
 
   export default {
     name: 'image-full-page',
-    props: ['title', 'image'],
+    props: ['title', 'image', 'padding'],
 
     data() {
       return {
-        srcImage: Drive.linkDrive(this.image)
+        srcImage: Drive.linkDrive(this.image),
+        padd: this.padding || '30px'
       };
     }
   };

@@ -55,6 +55,8 @@
 
     <column-text component-name="RetD"/>
 
+    <imageFullPage :image="retd.image"  padding="10px"/>
+
     <column-text component-name="Recrutement"/>
 
     <!--&lt;!&ndash; 3 Even Columns : BEGIN &ndash;&gt;-->
@@ -150,6 +152,7 @@
       return {
         parisWeb: config.parisWeb,
         journees: config.journees,
+        retd: config.retd,
         vuejsAmsterdam: config.vuejsAmsterdam,
         mouvements: config.mouvements,
         weo2018: config.weo2018
