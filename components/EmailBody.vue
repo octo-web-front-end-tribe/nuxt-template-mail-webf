@@ -115,7 +115,11 @@
 
     <imageFullPage :title="weo2018.title" :image="weo2018.image"/>
 
+    <nos-missions v-for="(mission, index) in missions" :key="index" :mission="mission"/>
   </table>
+
+
+
   <!-- Email Body : END -->
 </template>
 
@@ -132,9 +136,11 @@
   import config from '@/contents/config';
   import imageFullPage from './imageFullPage';
   import ColumnText from './email-body/ColumnText';
+  import NosMissions from './missions/NosMissions';
 
   export default {
     components: {
+      NosMissions,
       ColumnText,
       imageFullPage,
       Introduction,
@@ -155,7 +161,8 @@
         retd: config.retd,
         vuejsAmsterdam: config.vuejsAmsterdam,
         mouvements: config.mouvements,
-        weo2018: config.weo2018
+        weo2018: config.weo2018,
+        missions: config.missions
       };
     }
   };
