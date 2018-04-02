@@ -4,7 +4,7 @@
     <td bgcolor="#ffffff">
       <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
         <tr>
-          <td style="padding: 40px 40px 20px; text-align: center;">
+          <td style="padding: 40px 0px 20px; text-align: center;">
             <h1
               style="margin: 0; margin-bottom: 10px; font-family: sans-serif; font-size: 35px; line-height: 125%; color: #001849; font-weight: bold;">
               {{title}}
@@ -17,7 +17,7 @@
         </tr>
         <tr>
           <td
-            style="padding: 0 40px 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
+            style="padding: 0 10px 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; text-align: left;">
             <p style="margin: 0;">
               <intro></intro>
             </p>
@@ -25,7 +25,7 @@
         </tr>
         <tr style="display: none">
           <td
-            style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
+            style="padding: 0 10px 40px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
             <email-button texte="Découvre mes sources" urlLink="https://google.com"/>
           </td>
         </tr>

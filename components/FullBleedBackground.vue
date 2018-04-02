@@ -12,7 +12,7 @@
           <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
             <tr>
               <td
-                style="padding: 40px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #ffffff;">
+                style="padding: 40px; padding-right: 10px; padding-left: 10px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #ffffff;">
                 <p style="margin: 0;">
                   <logo-web-f/>
                   <br>

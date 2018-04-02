@@ -66,6 +66,11 @@
             <![endif]-->
           </td>
         </tr>
+        <tr>
+          <td>
+            <hr style="width: 60%; color: #dddddd">
+          </td>
+        </tr>
       </table>
       <!--[if mso]>
       </td>

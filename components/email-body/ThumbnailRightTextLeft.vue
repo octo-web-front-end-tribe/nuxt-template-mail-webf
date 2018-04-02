@@ -3,7 +3,7 @@
   <tr>
     <!-- dir=rtl is where the magic happens. This can be changed to dir=ltr to swap the alignment on wide while maintaining stack order on narrow. -->
     <td dir="rtl" bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%"
-        style="padding: 10px 0;">
+        style="padding: 10px 0 40px ;">
       <!--[if mso]>
       <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780"
              style="width: 780px;">

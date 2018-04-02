@@ -30,7 +30,7 @@
     data() {
       return {
         srcImage: Drive.linkDrive(this.image),
-        padd: this.padding || '30px'
+        padd: this.padding || '10px'
       };
     }
   };

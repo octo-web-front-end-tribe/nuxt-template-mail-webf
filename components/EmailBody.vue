@@ -77,7 +77,7 @@
                   <td align="left" valign="top" width="220">
               <![endif]-->
               <div style="text-align:left">
-                <h2 style="margin: 0px 40px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">Mouvements dans la tribu</h2>
+                <h2 style="margin: 0px 10px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">Mouvements dans la tribu</h2>
               </div>
               <even-column200 :mouvement="mouvements[0]"/>
               <!--[if mso]>
@@ -115,6 +115,8 @@
 
     <imageFullPage :title="weo2018.title" :image="weo2018.image"/>
 
+    <title-table title="Nos missions" />
+
     <nos-missions v-for="(mission, index) in missions" :key="index" :mission="mission"/>
   </table>
 
@@ -137,9 +139,11 @@
   import imageFullPage from './imageFullPage';
   import ColumnText from './email-body/ColumnText';
   import NosMissions from './missions/NosMissions';
+  import TitleTable from './email-body/TitleTable';
 
   export default {
     components: {
+      TitleTable,
       NosMissions,
       ColumnText,
       imageFullPage,
