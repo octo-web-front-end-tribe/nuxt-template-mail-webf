@@ -18,8 +18,6 @@
 
       <email-body/>
 
-      <email-footer/>
-
       <!--[if mso]>
       </td>
       </tr>
