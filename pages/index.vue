@@ -14,7 +14,7 @@
           <td>
       <![endif]-->
 
-      <email-header/>
+      <!--<email-header/>-->
 
       <email-body/>
 
