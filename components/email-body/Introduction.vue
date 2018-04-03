@@ -4,7 +4,7 @@
     <td bgcolor="#ffffff">
       <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
         <tr>
-          <td style="padding: 20px 0px 20px; text-align: center;">
+          <td style="padding: 20px 10px 20px; text-align: center;">
             <h1
               style="margin: 0; margin-bottom: 10px; font-family: sans-serif; font-size: 30px; line-height: 125%; color: #001849; font-weight: bold;">
               {{title}}
