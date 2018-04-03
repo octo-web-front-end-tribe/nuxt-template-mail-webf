@@ -19,8 +19,7 @@
                   <b style="font-size: large">There is a better Web</b>
                   <br>
                   <br>
-                  Nous accompagnons les acteurs du Web pour construire des architectures Front innovantes et de
-                  qualitées.
+                  Nous accompagnons les acteurs du Web pour construire des architectures Front innovantes et de qualité.
                 </p>
               </td>
             </tr>
