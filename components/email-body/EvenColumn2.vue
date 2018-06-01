@@ -1,0 +1,51 @@
+<template>
+    <!-- 2 Even Columns : BEGIN -->
+    <tr>
+        <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">
+            <!--[if mso]>
+            <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780">
+                <tr>
+                    <td align="center" valign="top" width="780">
+            <![endif]-->
+            <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
+                   style="max-width:780px;">
+                <tr>
+                    <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                        <!--[if mso]>
+                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center"
+                               width="780">
+                            <tr>
+                                <td align="left" valign="top" width="330">
+                        <![endif]-->
+                        <even-colum310 :journee="table[0]"/>
+                        <!--[if mso]>
+                        </td>
+                        <td align="left" valign="top" width="330">
+                        <![endif]-->
+                        <even-colum310 :journee="table[1]"/>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+            </table>
+            <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </td>
+    </tr>
+    <!--&lt;!&ndash; 2 Even Columns : END &ndash;&gt;-->
+</template>
+<script>
+    import EvenColum310 from './EvenColum2/EvenColum310'
+
+    export default {
+        name: 'even-column-2',
+        components: {EvenColum310},
+        props: ['table']
+    }
+</script>

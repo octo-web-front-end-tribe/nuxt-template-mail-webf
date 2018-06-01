@@ -50,11 +50,11 @@
 </template>
 
 <script>
-    import EvenColumn200 from "./EvenColumn200";
+    import EvenColumn200 from "./EvenColumn3/EvenColumn200";
     export default {
         name: 'even-column-3',
         components: {EvenColumn200},
-        props: ['table'],
+        props: ['title', 'table'],
 
         data() {
             return {};

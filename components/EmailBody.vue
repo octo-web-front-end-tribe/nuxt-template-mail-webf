@@ -7,46 +7,9 @@
 
         <column-text component-name="Organisation"/>
 
-        <!-- 2 Even Columns : BEGIN -->
-        <tr>
-            <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%">
-                <!--[if mso]>
-                <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780">
-                    <tr>
-                        <td align="center" valign="top" width="780">
-                <![endif]-->
-                <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-                       style="max-width:780px;">
-                    <tr>
-                        <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
-                            <!--[if mso]>
-                            <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center"
-                                   width="780">
-                                <tr>
-                                    <td align="left" valign="top" width="330">
-                            <![endif]-->
-                            <even-colum310 :journee="journees[0]"/>
-                            <!--[if mso]>
-                            </td>
-                            <td align="left" valign="top" width="330">
-                            <![endif]-->
-                            <even-colum310 :journee="journees[1]"/>
-                            <!--[if mso]>
-                            </td>
-                            </tr>
-                            </table>
-                            <![endif]-->
-                        </td>
-                    </tr>
-                </table>
-                <!--[if mso]>
-                </td>
-                </tr>
-                </table>
-                <![endif]-->
-            </td>
-        </tr>
-        <!--&lt;!&ndash; 2 Even Columns : END &ndash;&gt;-->
+
+        <even-column-2 :table="journees"/>
+
 
         <column-text component-name="Invitation"/>
 
@@ -58,7 +21,7 @@
 
         <column-text component-name="Recrutement"/>
 
-        <even-column-3 title="Mouvements dans la tribu" :table="mouvements"/>
+        <even-column-3 :title="mouvements.title" :table="mouvements.table"/>
 
         <thumbnail-left-text-right :title='parisWeb.title' :content="parisWeb.content" :image="parisWeb.image"
                                    :linkButton="parisWeb.linkButton"/>
@@ -78,12 +41,8 @@
 </template>
 
 <script>
-    import EmailButton from './email-body/EmailButton';
     import ThumbnailRightTextLeft from './email-body/ThumbnailRightTextLeft';
     import ThumbnailLeftTextRight from './email-body/ThumbnailLeftTextRight';
-    import EvenColumn200 from './email-body/EvenColumn200';
-    import EvenColum310 from './email-body/EvenColum310';
-    import BackgroundImageText from './email-body/BackgroundImageText';
     import Introduction from './email-body/Introduction';
 
     import imageFullPage from './imageFullPage';
@@ -91,22 +50,19 @@
     import NosMissions from './missions/NosMissions';
     import TitleTable from './email-body/TitleTable';
     import EvenColumn3 from "./email-body/EvenColumn3";
+    import EvenColumn2 from "./email-body/EvenColumn2";
 
     export default {
         components: {
+            EvenColumn2,
             EvenColumn3,
             TitleTable,
             NosMissions,
             ColumnText,
             imageFullPage,
             Introduction,
-            BackgroundImageText,
-            EvenColum310,
-            EvenColumn200,
             ThumbnailLeftTextRight,
-            ThumbnailRightTextLeft,
-            EmailButton
-        },
+            ThumbnailRightTextLeft},
         name: 'email-body',
 
         props: ['config'],
@@ -114,7 +70,7 @@
         data() {
             return {
                 parisWeb: this.config.parisWeb,
-                journees: this.config.journees,
+                journees: this.config.table,
                 retd: this.config.retd,
                 vuejsAmsterdam: this.config.vuejsAmsterdam,
                 mouvements: this.config.mouvements,
@@ -125,6 +81,3 @@
     };
 </script>
 
-<style scoped>
-
-</style>
