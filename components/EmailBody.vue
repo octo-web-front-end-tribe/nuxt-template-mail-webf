@@ -135,7 +135,6 @@
   import BackgroundImageText from './email-body/BackgroundImageText';
   import Introduction from './email-body/Introduction';
 
-  import config from '@/contents/config';
   import imageFullPage from './imageFullPage';
   import ColumnText from './email-body/ColumnText';
   import NosMissions from './missions/NosMissions';
@@ -158,15 +157,17 @@
     },
     name: 'email-body',
 
+      props: ['config'],
+
     data() {
       return {
-        parisWeb: config.parisWeb,
-        journees: config.journees,
-        retd: config.retd,
-        vuejsAmsterdam: config.vuejsAmsterdam,
-        mouvements: config.mouvements,
-        weo2018: config.weo2018,
-        missions: config.missions
+        parisWeb: this.config.parisWeb,
+        journees: this.config.journees,
+        retd: this.config.retd,
+        vuejsAmsterdam: this.config.vuejsAmsterdam,
+        mouvements: this.config.mouvements,
+        weo2018: this.config.weo2018,
+        missions: this.config.missions
       };
     }
   };

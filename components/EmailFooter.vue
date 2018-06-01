@@ -1,27 +1,48 @@
 <template>
-  <!-- Email Footer : BEGIN -->
-  <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
-         style="max-width: 780px;">
+  <!-- Full Bleed Background Section : BEGIN -->
+  <table role="presentation" bgcolor="#001849" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
     <tr>
-      <td
-        style="padding: 40px 10px; font-family: sans-serif; font-size: 12px; line-height: 140%; text-align: center; color: #888888;"
-        class="x-gmail-data-detectors">
-        Tribu WebFront
-        <br>
-        34 avenue de l'Opéra, 75002 Paris
-        <br>
-        tribu.webf@octo.com
-        <br><br>
+      <td valign="top" align="center">
+        <div style="max-width: 780px; margin: auto;" class="email-container">
+          <!--[if mso]>
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
+            <tr>
+              <td>
+          <![endif]-->
+          <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+            <tr>
+              <td
+                style="padding: 40px; padding-right: 10px; padding-left: 10px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #ffffff;">
+                <p style="margin: 0;">
+                  <logo-web-f/>
+                  <br>
+                  <b style="font-size: large">There is a better Web</b>
+                  <br>
+                  <br>
+                  Nous accompagnons les acteurs du Web pour construire des architectures Front innovantes et de qualité.
+                </p>
+              </td>
+            </tr>
+          </table>
+          <!--[if mso]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </div>
       </td>
     </tr>
   </table>
-  <!-- Email Footer : END -->
+  <!-- Full Bleed Background Section : END -->
 </template>
 
 <script>
-    export default {
-        name: 'email-footer'
-    };
+  import LogoWebF from './LogoWebF';
+
+  export default {
+    components: { LogoWebF },
+    name: 'email-footer'
+  };
 </script>
 
 <style scoped>
