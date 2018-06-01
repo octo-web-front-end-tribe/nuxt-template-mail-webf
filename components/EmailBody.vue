@@ -58,55 +58,7 @@
 
         <column-text component-name="Recrutement"/>
 
-        <!--&lt;!&ndash; 3 Even Columns : BEGIN &ndash;&gt;-->
-        <tr>
-            <td bgcolor="#ffffff" align="center" height="100%" valign="top" width="100%" style="padding: 10px 0;">
-                <!--[if mso]>
-                <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780">
-                    <tr>
-                        <td align="center" valign="top" width="780">
-                <![endif]-->
-                <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
-                       style="max-width:780px;">
-                    <tr>
-                        <td align="center" valign="top" style="font-size:0;">
-                            <!--[if mso]>
-                            <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center"
-                                   width="780">
-                                <tr>
-                                    <td align="left" valign="top" width="220">
-                            <![endif]-->
-                            <div style="text-align:left">
-                                <h2 style="margin: 0px 10px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">
-                                    Mouvements dans la tribu</h2>
-                            </div>
-                            <even-column200 :mouvement="mouvements[0]"/>
-                            <!--[if mso]>
-                            </td>
-                            <td align="left" valign="top" width="220">
-                            <![endif]-->
-                            <even-column200 :mouvement="mouvements[1]"/>
-                            <!--[if mso]>
-                            </td>
-                            <td align="left" valign="top" width="220">
-                            <![endif]-->
-                            <even-column200 :mouvement="mouvements[2]"/>
-                            <!--[if mso]>
-                            </td>
-                            </tr>
-                            </table>
-                            <![endif]-->
-                        </td>
-                    </tr>
-                </table>
-                <!--[if mso]>
-                </td>
-                </tr>
-                </table>
-                <![endif]-->
-            </td>
-        </tr>
-        <!-- 3 Even Columns : END -->
+        <even-column-3 title="Mouvements dans la tribu" :table="mouvements"/>
 
         <thumbnail-left-text-right :title='parisWeb.title' :content="parisWeb.content" :image="parisWeb.image"
                                    :linkButton="parisWeb.linkButton"/>
@@ -138,9 +90,11 @@
     import ColumnText from './email-body/ColumnText';
     import NosMissions from './missions/NosMissions';
     import TitleTable from './email-body/TitleTable';
+    import EvenColumn3 from "./email-body/EvenColumn3";
 
     export default {
         components: {
+            EvenColumn3,
             TitleTable,
             NosMissions,
             ColumnText,
