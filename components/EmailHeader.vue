@@ -4,9 +4,7 @@
            style="max-width: 780px;">
         <tr>
             <td style="padding: 20px 0; text-align: center">
-                <img :src="srcLink"
-                     width="120" height="50" alt="alt_text" border="0"
-                     style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
+                <hero-image-flush :fullImage="params.fullImage"/>
             </td>
         </tr>
     </table>
@@ -14,15 +12,13 @@
 </template>
 
 <script>
-    import Drive from '@/services/linkDrive';
+    import HeroImageFlush from './email-body/HeroImageFlush';
 
     export default {
         name: 'email-header',
-
-        data() {
-            return {
-                srcLink: Drive.linkDrive('13GI_JgNCXnjNvjuAfkBH5YbBRvYbFQWj')
-            };
+        props:['params'],
+        components: {
+            HeroImageFlush
         }
     };
 </script>

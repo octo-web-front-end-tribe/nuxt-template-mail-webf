@@ -3,9 +3,7 @@
     <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="100%"
            style="max-width: 780px;" class="email-container">
 
-        <hero-image-flush/>
-
-        <introduction/>
+        <introduction :config="config"/>
 
         <column-text component-name="Organisation"/>
 
@@ -128,7 +126,6 @@
 </template>
 
 <script>
-    import HeroImageFlush from './email-body/HeroImageFlush';
     import EmailButton from './email-body/EmailButton';
     import ThumbnailRightTextLeft from './email-body/ThumbnailRightTextLeft';
     import ThumbnailLeftTextRight from './email-body/ThumbnailLeftTextRight';
@@ -154,8 +151,7 @@
             EvenColumn200,
             ThumbnailLeftTextRight,
             ThumbnailRightTextLeft,
-            EmailButton,
-            HeroImageFlush
+            EmailButton
         },
         name: 'email-body',
 

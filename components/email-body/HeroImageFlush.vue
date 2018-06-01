@@ -16,10 +16,11 @@
 
     export default {
         name: 'hero-image-flush',
+        props:['fullImage'],
 
         data() {
             return {
-                srcLink: Drive.linkDrive('13FclULp8zC7zaSbXN-5wQP9qcqHksAB_')
+                srcLink: Drive.linkDrive(this.fullImage)
             };
         }
     };

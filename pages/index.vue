@@ -14,7 +14,7 @@
                     <td>
             <![endif]-->
 
-            <!--<email-header/>-->
+            <email-header :params="config.header"/>
 
             <email-body :config="config"/>
 
@@ -30,7 +30,6 @@
 
 <script>
     import PreheaderText from '../components/PreheaderText';
-    import TextSpacingHack from '../components/TextSpacingHack';
     import EmailFooter from '../components/EmailFooter';
     import EmailHeader from '../components/EmailHeader';
     import EmailBody from '../components/EmailBody';
@@ -42,7 +41,6 @@
             EmailBody,
             EmailHeader,
             EmailFooter,
-            TextSpacingHack,
             PreheaderText
         },
         data() {

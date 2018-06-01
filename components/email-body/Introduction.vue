@@ -38,8 +38,6 @@
 
 <script>
     import EmailButton from './EmailButton';
-    import config from '@/contents/config.json';
-
     import Intro from '@/contents/1_introduction.md';
 
     export default {
@@ -48,9 +46,10 @@
             Intro
         },
         name: 'introduction',
+        props: ['config'],
 
         data() {
-            return config.introduction;
+            return this.config.introduction;
         }
     };
 </script>
