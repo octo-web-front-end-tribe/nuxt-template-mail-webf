@@ -36,31 +36,5 @@
     "vue-loader": "^13.7.2",
     "vue-markdown-loader": "^2.4.0",
     "vue-test-utils": "^1.0.0-beta.11"
-  },
-  "jest": {
-    "globals": {
-      "vue-jest": {
-        "hideStyleWarn": true
-      }
-    },
-    "verbose": true,
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "vue",
-      "md"
-    ],
-    "collectCoverageFrom": [
-      "components/**/*.{js,vue}",
-      "services/**/*{js}"
-    ],
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/$1"
-    },
-    "transform": {
-      "^.+\\.js$": "babel-jest",
-      ".*\\.(vue)$": "vue-jest",
-      "^.+\\.md?$": "markdown-loader-jest"
-    }
   }
 }
