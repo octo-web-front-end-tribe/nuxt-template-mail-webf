@@ -1,16 +1,16 @@
 import Vue from 'vue'
-import EmailBody from '@/components/EmailBody'
+import PreheaderText from '@/components/PreheaderText'
 import configuration from '@/contents/config'
 
-describe.skip('EmailBody Component', () => {
+describe('PreheaderText Component', () => {
     let $mounted
 
-    const Constructor = Vue.extend(EmailBody)
+    const Constructor = Vue.extend(PreheaderText)
 
     beforeEach(() => {
         $mounted = new Constructor({
             propsData: {
-                config: configuration
+                params: configuration.preheader
             }
         }).$mount()
     })
