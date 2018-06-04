@@ -38,7 +38,7 @@
 </template>
 
 <script>
-    import LogoWebF from './LogoWebF';
+    import LogoWebF from '../LogoWebF';
 
     export default {
         components: {LogoWebF},

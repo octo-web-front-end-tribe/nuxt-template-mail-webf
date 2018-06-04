@@ -78,7 +78,7 @@
 <script>
     import EmailButton from './EmailButton';
     import Drive from '@/services/linkDrive';
-    import ColumnText from '@/components/email-body/ColumnText';
+    import ColumnText from '@/components/EmailBody/ColumnText';
 
     export default {
         components: {

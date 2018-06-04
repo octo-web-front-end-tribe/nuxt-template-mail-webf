@@ -30,9 +30,9 @@
 
 <script>
     import PreheaderText from '../components/PreheaderText';
-    import EmailFooter from '../components/EmailFooter';
-    import EmailHeader from '../components/EmailHeader';
-    import EmailBody from '../components/EmailBody';
+    import EmailFooter from '../components/EmailFooter/index';
+    import EmailHeader from '../components/EmailHeader/index';
+    import EmailBody from '../components/EmailBody/index';
 
     import configuration from '@/contents/config';
 

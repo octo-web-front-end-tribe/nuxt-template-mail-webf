@@ -12,7 +12,7 @@
 </template>
 
 <script>
-    import HeroImageFlush from './email-body/HeroImageFlush';
+    import HeroImageFlush from '../EmailBody/HeroImageFlush';
 
     export default {
         name: 'email-header',
