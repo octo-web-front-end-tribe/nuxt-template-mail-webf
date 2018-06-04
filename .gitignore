@@ -2,6 +2,7 @@
 node_modules
 .idea
 contents/*
+coverage
 
 # logs
 npm-debug.log

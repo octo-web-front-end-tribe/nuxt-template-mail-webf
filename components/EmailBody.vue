@@ -7,9 +7,7 @@
 
         <column-text component-name="Organisation"/>
 
-
         <even-column-2 :table="journees"/>
-
 
         <column-text component-name="Invitation"/>
 
@@ -35,8 +33,6 @@
 
         <nos-missions v-for="(mission, index) in missions" :key="index" :mission="mission"/>
     </table>
-
-
     <!-- Email Body : END -->
 </template>
 
@@ -62,7 +58,8 @@
             imageFullPage,
             Introduction,
             ThumbnailLeftTextRight,
-            ThumbnailRightTextLeft},
+            ThumbnailRightTextLeft
+        },
         name: 'email-body',
 
         props: ['config'],

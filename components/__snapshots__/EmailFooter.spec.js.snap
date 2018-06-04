@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmailFooter Component snapshot 1`] = `
+"<table role=\\"presentation\\" bgcolor=\\"#001849\\" cellspacing=\\"0\\" cellpadding=\\"0\\" border=\\"0\\" align=\\"center\\" width=\\"100%\\"><tr><td valign=\\"top\\" align=\\"center\\"><div class=\\"email-container\\" style=\\"max-width: 780px; margin: auto;\\"><table role=\\"presentation\\" cellspacing=\\"0\\" cellpadding=\\"0\\" border=\\"0\\" width=\\"100%\\"><tr><td style=\\"padding: 40px 10px 40px 10px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: rgb(255, 255, 255);\\"><p style=\\"margin: 0px;\\"><img src=\\"https://drive.google.com/uc?id=13BzL0ExgsfvDpbZsTQe4qq15XS1GS0_4\\" style=\\"width: 100px;\\"> <br> <b style=\\"font-size: large;\\">There is a better Web</b> <br> <br>
+                                Nous accompagnons les acteurs du Web pour construire des architectures Front
+                                innovantes et de qualité.
+                            </p></td></tr></table></div></td></tr></table>"
+`;
