@@ -1,16 +1,16 @@
 import Vue from 'vue'
-import EmailFooter from '@/components/EmailFooter'
+import LogoWebF from '@/components/EmailFooter/LogoWebF'
 import configuration from '@/contents/config'
 
-describe('EmailFooter Component', () => {
+describe('LogoWebF Component', () => {
     let $mounted
 
-    const Constructor = Vue.extend(EmailFooter);
+    const Constructor = Vue.extend(LogoWebF)
 
     beforeEach(() => {
         $mounted = new Constructor({
             propsData: {
-                params: configuration
+                logoWebFLinkID: configuration.logoWebF.linkID
             }
         }).$mount()
     })

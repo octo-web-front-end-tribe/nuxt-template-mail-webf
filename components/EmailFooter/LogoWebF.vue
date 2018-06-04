@@ -1,8 +1,5 @@
 <template>
-    <img
-            :src="srcLink"
-            style="width: 100px"
-    >
+    <img :src="srcLink" style="width: 100px">
 </template>
 
 <script>
@@ -10,9 +7,10 @@
 
     export default {
         name: 'logo-web-f',
+        props: ['logoWebFLinkID'],
         data() {
             return {
-                srcLink: Drive.linkDrive('13BzL0ExgsfvDpbZsTQe4qq15XS1GS0_4')
+                srcLink: Drive.linkDrive(this.logoWebFLinkID)
             }
         }
     };

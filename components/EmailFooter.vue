@@ -14,7 +14,7 @@
                             <td
                                     style="padding: 40px; padding-right: 10px; padding-left: 10px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #ffffff;">
                                 <p style="margin: 0;">
-                                    <logo-web-f/>
+                                    <logo-web-f :logoWebFLinkID="params.logoWebF.linkID"/>
                                     <br>
                                     <b style="font-size: large">There is a better Web</b>
                                     <br>
@@ -42,7 +42,9 @@
 
     export default {
         components: {LogoWebF},
-        name: 'email-footer'
+        name: 'email-footer',
+
+        props: ['params']
     };
 </script>
 
