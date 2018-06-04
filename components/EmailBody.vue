@@ -37,16 +37,16 @@
 </template>
 
 <script>
-    import ThumbnailRightTextLeft from './ThumbnailRightTextLeft';
-    import ThumbnailLeftTextRight from './ThumbnailLeftTextRight';
-    import Introduction from './Introduction';
+    import ThumbnailRightTextLeft from './EmailBody/ThumbnailRightTextLeft';
+    import ThumbnailLeftTextRight from './EmailBody/ThumbnailLeftTextRight';
+    import Introduction from './EmailBody/Introduction';
 
-    import imageFullPage from '../imageFullPage';
-    import ColumnText from './ColumnText';
-    import NosMissions from '../missions/NosMissions';
-    import TitleTable from './TitleTable';
-    import EvenColumn3 from "./EvenColumn3";
-    import EvenColumn2 from "./EvenColumn2";
+    import imageFullPage from './EmailBody/ImageFullPage';
+    import ColumnText from './EmailBody/ColumnText';
+    import NosMissions from './missions/NosMissions';
+    import TitleTable from './EmailBody/TitleTable';
+    import EvenColumn3 from "./EmailBody/EvenColumn3";
+    import EvenColumn2 from "./EmailBody/EvenColumn2";
 
     export default {
         components: {

@@ -38,7 +38,7 @@
 </template>
 
 <script>
-    import LogoWebF from '../LogoWebF';
+    import LogoWebF from './EmailFooter/LogoWebF';
 
     export default {
         components: {LogoWebF},
