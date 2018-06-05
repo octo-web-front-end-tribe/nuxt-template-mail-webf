@@ -4,8 +4,7 @@
         <td bgcolor="#ffffff">
             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                 <tr>
-                    <td
-                            style="padding: 10px; padding-top: 0px; padding-bottom: 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
+                    <td style="padding: 10px; padding-top: 0px; padding-bottom: 0px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
                         <p style="margin: 0 0 10px 0;">
                             <component :is="name" class="vue-component"/>
                         </p>
