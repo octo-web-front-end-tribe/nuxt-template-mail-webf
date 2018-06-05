@@ -1,9 +1,4 @@
 module.exports = {
-    "globals": {
-        "vue-jest": {
-            "hideStyleWarn": true
-        }
-    },
     "verbose": true,
     "moduleFileExtensions": [
         "js",
@@ -23,4 +18,4 @@ module.exports = {
         ".*\\.(vue)$": "vue-jest",
         "^.+\\.md?$": "markdown-loader-jest"
     }
-}
+};

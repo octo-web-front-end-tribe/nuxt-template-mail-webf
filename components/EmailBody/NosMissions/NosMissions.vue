@@ -84,7 +84,6 @@
 </template>
 
 <script>
-
     import ANEF from '@/contents/7_missions_ANEF.md';
     import CANAL from '@/contents/7_missions_CANAL.md';
     import CM from '@/contents/7_missions_CM.md';

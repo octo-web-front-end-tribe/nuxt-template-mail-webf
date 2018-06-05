@@ -2,7 +2,7 @@ import Vue from 'vue'
 import EmailHeader from '@/components/EmailHeader'
 import configuration from '@/contents/config'
 
-describe('EmailFooter Component', () => {
+describe('EmailHeader Component', () => {
     let $mounted
 
     const Constructor = Vue.extend(EmailHeader)
