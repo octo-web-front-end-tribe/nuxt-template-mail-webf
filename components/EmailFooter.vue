@@ -1,5 +1,4 @@
 <template>
-    <!-- Full Bleed Background Section : BEGIN -->
     <table role="presentation" bgcolor="#001849" cellspacing="0" cellpadding="0" border="0" align="center" width="100%">
         <tr>
             <td valign="top" align="center">
@@ -11,10 +10,9 @@
                     <![endif]-->
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
-                            <td
-                                    style="padding: 40px; padding-right: 10px; padding-left: 10px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #ffffff;">
+                            <td style="padding: 40px; padding-right: 10px; padding-left: 10px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #ffffff;">
                                 <p style="margin: 0;">
-                                    <logo-web-f :logoWebFLinkID="params.logoWebF.linkID"/>
+                                    <logo :driveImageID="params.driveImageID"/>
                                     <br>
                                     <b style="font-size: large">There is a better Web</b>
                                     <br>
@@ -34,20 +32,15 @@
             </td>
         </tr>
     </table>
-    <!-- Full Bleed Background Section : END -->
 </template>
 
 <script>
-    import LogoWebF from './EmailFooter/LogoWebF';
+    import Logo from '@/components/EmailFooter/Logo';
 
     export default {
-        components: {LogoWebF},
+        components: {Logo},
         name: 'email-footer',
 
         props: ['params']
     };
 </script>
-
-<style scoped>
-
-</style>

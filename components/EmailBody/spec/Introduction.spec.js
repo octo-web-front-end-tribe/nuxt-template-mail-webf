@@ -2,10 +2,6 @@ import Vue from 'vue'
 import Introduction from '@/components/EmailBody/Introduction'
 import configuration from '@/contents/config';
 
-jest.mock('@/contents/1_introduction.md', () => {
-    return require('@/components/spec/MarkdownMock')
-});
-
 describe('Introduction Component', () => {
     let $mounted;
 

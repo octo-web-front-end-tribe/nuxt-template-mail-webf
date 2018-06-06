@@ -1,16 +1,16 @@
 <template>
-    <img :src="srcLink" style="width: 100px">
+    <img :src="imgSrc" style="width: 100px">
 </template>
 
 <script>
     import Drive from '@/services/linkDrive';
 
     export default {
-        name: 'logo-web-f',
-        props: ['logoWebFLinkID'],
+        name: 'logo',
+        props: ['driveImageID'],
         data() {
             return {
-                srcLink: Drive.linkDrive(this.logoWebFLinkID)
+                imgSrc: Drive.linkDrive(this.driveImageID)
             }
         }
     };

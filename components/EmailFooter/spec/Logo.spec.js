@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import LogoWebF from '@/components/EmailFooter/LogoWebF'
+import LogoWebF from '@/components/EmailFooter/Logo'
 import configuration from '@/contents/config'
 
 describe('LogoWebF Component', () => {
@@ -10,7 +10,7 @@ describe('LogoWebF Component', () => {
     beforeEach(() => {
         $mounted = new Constructor({
             propsData: {
-                logoWebFLinkID: configuration.logoWebF.linkID
+                driveImageID: configuration.logoWebF.linkID
             }
         }).$mount()
     })

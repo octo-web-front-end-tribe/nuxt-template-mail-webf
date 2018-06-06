@@ -24,7 +24,7 @@
             </table>
             <![endif]-->
         </div>
-        <email-footer/>
+        <email-footer :params="email_footer_params"/>
     </div>
 </template>
 
@@ -45,7 +45,10 @@
         },
         data() {
             return {
-                config: configuration
+                config: configuration,
+                email_footer_params: {
+                    driveImageID: configuration.logoWebF.linkID
+                }
             };
         }
     };

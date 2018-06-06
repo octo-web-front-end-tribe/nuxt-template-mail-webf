@@ -2,10 +2,6 @@ import Vue from 'vue'
 import ThumbnailRightTextLeft from '@/components/EmailBody/ThumbnailRightTextLeft'
 import configuration from '@/contents/config';
 
-jest.mock('@/contents/parisWeb.md', () => {
-    return require('@/components/spec/MarkdownMock')
-});
-
 describe('ThumbnailRightTextLeft Component', () => {
     let $mounted;
 

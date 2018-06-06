@@ -2,10 +2,6 @@ import Vue from 'vue'
 import NosMissions from '@/components/EmailBody/NosMissions/NosMissions'
 import configuration from '@/contents/config'
 
-jest.mock('@/contents/7_missions_ANEF.md', () => {
-    return require('@/components/spec/MarkdownMock')
-});
-
 describe('NosMissions Component', () => {
     let $mounted;
 

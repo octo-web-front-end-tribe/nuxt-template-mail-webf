@@ -17,5 +17,8 @@ module.exports = {
         "^.+\\.js$": "babel-jest",
         ".*\\.(vue)$": "vue-jest",
         "^.+\\.md?$": "markdown-loader-jest"
-    }
+    },
+    "setupFiles": [
+        "<rootDir>/jest/globals.js"
+    ]
 };

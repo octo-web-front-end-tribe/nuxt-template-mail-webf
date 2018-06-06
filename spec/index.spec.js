@@ -1,21 +1,19 @@
 import Vue from 'vue'
-import ColumnText from '@/components/EmailBody/ColumnText'
+import index from '@/pages/index'
 
-describe('ColumnText Component', () => {
+describe('index Component', () => {
     let $mounted;
 
-    const Constructor = Vue.extend(ColumnText);
+    const Constructor = Vue.extend(index);
 
     beforeEach(() => {
         $mounted = new Constructor({
-            propsData: {
-                componentName: 'ParisWeb'
-            }
+            propsData: {}
         }).$mount()
     });
 
     test('snapshot', () => {
         let $html = $mounted.$el.outerHTML;
         expect($html).toMatchSnapshot()
-    })
+    });
 });
