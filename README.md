@@ -30,3 +30,5 @@ fichiers .md dans les tests avec le fichier @/components/spec/MarkdownMock.vue p
 console.error node_modules/vue/dist/vue.runtime.common.js:589
     [Vue warn]: Invalid Component definition: <p>Ce premier trimestre ....</p>.... 
 ```
+
+Tous ces mock sont présents dans le fichier @/jest/globals.js
