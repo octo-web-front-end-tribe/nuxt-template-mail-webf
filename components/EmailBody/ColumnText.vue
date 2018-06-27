@@ -17,22 +17,10 @@
 </template>
 
 <script>
-    import ParisWeb from '@/contents/parisWeb.md';
-    import Organisation from '@/contents/2_organisation.md';
-    import League from '@/contents/3_league.md';
-    import RetD from '@/contents/4_retd.md';
-    import Recrutement from '@/contents/5_recrutement.md';
-    import Invitation from '@/contents/8_invitation.md';
 
     export default {
         name: 'column-text',
         components: {
-            ParisWeb,
-            Organisation,
-            League,
-            RetD,
-            Recrutement,
-            Invitation
         },
 
         props: ['componentName'],

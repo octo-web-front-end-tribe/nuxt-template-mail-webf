@@ -15,22 +15,28 @@
                         <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center"
                                width="780">
                             <tr>
-                                <td align="left" valign="top" width="220">
+                                <td align="left" valign="top" width="190">
                         <![endif]-->
                         <div style="text-align:left">
                             <h2 style="margin: 0px 10px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">{{title}}</h2>
                         </div>
-                        <even-column200 :params="table[0]"/>
+                        <even-column170 :params="table[0]"/>
                         <!--[if mso]>
                         </td>
-                        <td align="left" valign="top" width="220">
+                        <td align="left" valign="top" width="190">
                         <![endif]-->
-                        <even-column200 :params="table[1]"/>
+                        <even-column170 :params="table[1]"/>
                         <!--[if mso]>
                         </td>
-                        <td align="left" valign="top" width="220">
+                        <td align="left" valign="top" width="190">
                         <![endif]-->
-                        <even-column200 :params="table[2]"/>
+                        <even-column170 :params="table[2]"/>
+                        <!--[if mso]>
+                        </td>
+
+                        <td align="left" valign="top" width="190">
+                        <![endif]-->
+                        <even-column170 :params="table[3]"/>
                         <!--[if mso]>
                         </td>
                         </tr>
@@ -50,10 +56,10 @@
 </template>
 
 <script>
-    import EvenColumn200 from "./EvenColumn3/EvenColumn200";
+    import EvenColumn170 from "./EvenColumn4/EvenColumn170";
     export default {
-        name: 'even-column-3',
-        components: {EvenColumn200},
+        name: 'even-column-4',
+        components: {EvenColumn170},
         props: ['title', 'table'],
 
         data() {

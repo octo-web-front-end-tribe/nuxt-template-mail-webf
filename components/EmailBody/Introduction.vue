@@ -38,7 +38,7 @@
 
 <script>
     import EmailButton from './EmailButton';
-    import Intro from '@/contents/1_introduction.md';
+    import Intro from '@/contents/introduction.md';
 
     export default {
         components: {

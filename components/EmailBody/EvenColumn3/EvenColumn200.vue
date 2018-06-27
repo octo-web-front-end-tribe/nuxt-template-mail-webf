@@ -18,8 +18,8 @@
                             <td
                                     style="font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; padding-top: 10px;"
                                     class="stack-column-center">
-                                <h2>{{emoji1}} {{mouvement.tri}} {{emoji2}}</h2>
-                                <p style="margin: 0;" v-html="mouvement.content"></p>
+                                <h2>{{emoji1}} {{params.tri}} {{emoji2}}</h2>
+                                <p style="margin: 0;" v-html="params.content"></p>
                             </td>
                         </tr>
                     </table>
@@ -30,15 +30,17 @@
 </template>
 
 <script>
+    import EmojiMouvement from '@/services/emojiMouvement';
+
     export default {
         name: 'even-column200',
-        props: ['mouvement'],
+        props: ['params'],
 
         data() {
             return {
-                srcImage: this.mouvement.image || 'http://placehold.it/200',
-                emoji1: this.mouvement.entree ? '🍾' : '😭',
-                emoji2: this.mouvement.entree ? '🍾' : '😭'
+                srcImage: this.params.image || 'http://placehold.it/200',
+                emoji1: EmojiMouvement.emoji(this.params.entree),
+                emoji2: EmojiMouvement.emoji(this.params.entree)
             };
         }
     };

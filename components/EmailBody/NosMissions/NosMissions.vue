@@ -84,32 +84,32 @@
 </template>
 
 <script>
-    import ANEF from '@/contents/7_missions_ANEF.md';
-    import CANAL from '@/contents/7_missions_CANAL.md';
-    import CM from '@/contents/7_missions_CM.md';
-    import conges from '@/contents/7_missions_conges.md';
-    import explo from '@/contents/7_missions_explo.md';
-    import GRT from '@/contents/7_missions_GRT.md';
-    import IPSEN from '@/contents/7_missions_IPSEN.md';
-    import meetic from '@/contents/7_missions_meetic.md';
-    import PIX from '@/contents/7_missions_PIX.md';
-    import randstad from '@/contents/7_missions_randstad.md';
-    import RG from '@/contents/7_missions_RG.md';
+    import ANEF from "@/contents/missions/ANEF.md"
+    import AVIGNON from "@/contents/missions/AVIGNON.md"
+    import conges from "@/contents/missions/conges.md"
+    import DISNEY from "@/contents/missions/DISNEY.md"
+    import CANAL from "@/contents/missions/CANAL.md"
+    import FAURECIA from "@/contents/missions/FAURECIA.md"
+    import MEETIC from "@/contents/missions/MEETIC.md"
+    import PIX from "@/contents/missions/PIX.md"
+    import POLICE from "@/contents/missions/POLICE.md"
+    import RANDSTAD from "@/contents/missions/RANDSTAD.md"
+    import TEXA from "@/contents/missions/TEXA.md"
 
     export default {
         name: 'nos-missions',
         components: {
             ANEF,
-            CANAL,
-            CM,
+            AVIGNON,
             conges,
-            explo,
-            GRT,
-            IPSEN,
-            meetic,
+            DISNEY,
+            CANAL,
+            FAURECIA,
+            MEETIC,
             PIX,
-            randstad,
-            RG
+            POLICE,
+            RANDSTAD,
+            TEXA
         },
         props: ['mission'],
 

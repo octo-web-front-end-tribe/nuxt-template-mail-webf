@@ -5,29 +5,7 @@
 
         <introduction :config="config"/>
 
-        <column-text component-name="Organisation"/>
-
-        <even-column-2 :table="journees"/>
-
-        <column-text component-name="Invitation"/>
-
-        <column-text component-name="League"/>
-
-        <column-text component-name="RetD"/>
-
-        <imageFullPage :image="retd.image" padding="10px"/>
-
-        <column-text component-name="Recrutement"/>
-
-        <even-column-3 :title="mouvements.title" :table="mouvements.table"/>
-
-        <thumbnail-left-text-right :title='parisWeb.title' :content="parisWeb.content" :image="parisWeb.image"
-                                   :linkButton="parisWeb.linkButton"/>
-
-        <thumbnail-right-text-left :title='vuejsAmsterdam.title' :content="vuejsAmsterdam.content"
-                                   :image="vuejsAmsterdam.image" :linkButton="vuejsAmsterdam.linkButton"/>
-
-        <imageFullPage :title="weo2018.title" :image="weo2018.image"/>
+        <even-column-4 :title="mouvements.title" :table="mouvements.table"/>
 
         <title-table title="Nos missions"/>
 
@@ -45,13 +23,15 @@
     import ColumnText from './EmailBody/ColumnText';
     import NosMissions from './EmailBody/NosMissions/NosMissions';
     import TitleTable from './EmailBody/TitleTable';
-    import EvenColumn3 from "./EmailBody/EvenColumn3";
     import EvenColumn2 from "./EmailBody/EvenColumn2";
+    import EvenColumn3 from "./EmailBody/EvenColumn3";
+    import EvenColumn4 from "./EmailBody/EvenColumn4";
 
     export default {
         components: {
             EvenColumn2,
             EvenColumn3,
+            EvenColumn4,
             TitleTable,
             NosMissions,
             ColumnText,
@@ -66,12 +46,7 @@
 
         data() {
             return {
-                parisWeb: this.config.parisWeb,
-                journees: this.config.table,
-                retd: this.config.retd,
-                vuejsAmsterdam: this.config.vuejsAmsterdam,
                 mouvements: this.config.mouvements,
-                weo2018: this.config.weo2018,
                 missions: this.config.missions
             };
         }
