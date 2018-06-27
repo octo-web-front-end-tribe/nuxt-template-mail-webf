@@ -13,7 +13,7 @@
             <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
                    style="max-width:780px;">
                 <tr>
-                    <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                    <td align="left" valign="top" style="font-size:0; padding: 10px 0;">
                         <!--[if mso]>
                         <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780"
                                style="width: 780px;">
@@ -21,7 +21,7 @@
                                 <td align="left" valign="top" width="220" style="width: 220px;">
                         <![endif]-->
                         <div
-                                style="display:inline-block; margin: 0 -2px; max-width: 200px; min-width:160px; vertical-align:bottom; width:100%;"
+                                style="display:inline-block; margin: 0 -2px; max-width: 200px; min-width:160px; vertical-align:bottom; width:100%; float:right"
                                 class="stack-column">
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                 <tr>
@@ -38,7 +38,7 @@
                         <td align="left" valign="top" width="440" style="width: 440px;">
                         <![endif]-->
                         <div
-                                style="display:inline-block; margin: 0 -2px; max-width:66.66%; min-width:320px; vertical-align:top;"
+                                style="display:inline-block; margin: 0 -2px; max-width:75%; min-width:320px; vertical-align:top;"
                                 class="stack-column">
                             <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                                 <tr>

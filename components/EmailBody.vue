@@ -5,6 +5,8 @@
 
         <introduction :config="config"/>
 
+        <thumbnail-right-text-left :title="twitter.title" :content="twitter.content" :image="twitter.image" :linkButton="twitter.linkButton"></thumbnail-right-text-left>
+
         <even-column-4 :title="mouvements.title" :table="mouvements.table"/>
 
         <title-table title="Nos missions"/>
@@ -46,6 +48,7 @@
 
         data() {
             return {
+                twitter: this.config.twitter,
                 mouvements: this.config.mouvements,
                 missions: this.config.missions
             };
