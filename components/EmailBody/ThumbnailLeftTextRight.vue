@@ -13,7 +13,7 @@
             <table role="presentation" border="0" cellpadding="0" cellspacing="0" align="center" width="100%"
                    style="max-width:780px;">
                 <tr>
-                    <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                    <td align="left" valign="top" style="font-size:0; padding: 10px 0;">
                         <!--[if mso]>
                         <table role="presentation" border="0" cellspacing="0" cellpadding="0" align="center" width="780"
                                style="width: 780px;">
@@ -50,7 +50,7 @@
                                             {{title}}</h2>
                                         <p style="margin: 0 0 10px 0;" v-html="content"></p>
                                         <br>
-                                        <email-button :texte="linkButton.title" :url-link="linkButton.url"
+                                        <email-button v-if="linkButton" :texte="linkButton.title" :url-link="linkButton.url"
                                                       align-button="center"/>
                                     </td>
                                 </tr>
@@ -61,7 +61,6 @@
                         </tr>
                         </table>
                         <![endif]-->
-                        <column-text componentName="ParisWeb"/>
                     </td>
                 </tr>
             </table>

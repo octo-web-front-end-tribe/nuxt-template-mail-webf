@@ -90,11 +90,12 @@
     import DISNEY from "@/contents/missions/DISNEY.md"
     import CANAL from "@/contents/missions/CANAL.md"
     import FAURECIA from "@/contents/missions/FAURECIA.md"
+    import INVIVO from "@/contents/missions/INVIVO.md"
     import MEETIC from "@/contents/missions/MEETIC.md"
     import PIX from "@/contents/missions/PIX.md"
     import POLICE from "@/contents/missions/POLICE.md"
     import RANDSTAD from "@/contents/missions/RANDSTAD.md"
-    import TEXA from "@/contents/missions/TEXA.md"
+    import TEXA from "@/contents/missions/TEXA_fait.md"
 
     export default {
         name: 'nos-missions',
@@ -105,6 +106,7 @@
             DISNEY,
             CANAL,
             FAURECIA,
+            INVIVO,
             MEETIC,
             PIX,
             POLICE,

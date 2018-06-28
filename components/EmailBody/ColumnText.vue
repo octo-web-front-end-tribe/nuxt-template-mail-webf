@@ -17,10 +17,14 @@
 </template>
 
 <script>
+    import RefCardTest from '@/contents/ref_card_test.md';
+    import RefCardArchi from '@/contents/ref_card_archi.md';
 
     export default {
         name: 'column-text',
         components: {
+            RefCardTest,
+            RefCardArchi
         },
 
         props: ['componentName'],

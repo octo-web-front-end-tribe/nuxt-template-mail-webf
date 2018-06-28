@@ -4,7 +4,8 @@
         <td bgcolor="#ffffff" align="center">
             <img :src="srcLink"
                  width="680" height="" alt="alt_text" border="0" align="center"
-                 style="width: 100%; max-width: 780px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; margin: auto;"
+                 style="width: 100%; max-width: 780px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555; margin: auto; margin-bottom: 20px"
+                 :style="'width:' + width"
                  class="fluid g-img">
         </td>
     </tr>
@@ -16,11 +17,12 @@
 
     export default {
         name: 'hero-image-flush',
-        props:['fullImage'],
+        props:['fullImage', 'size'],
 
         data() {
             return {
-                srcLink: Drive.linkDrive(this.fullImage)
+                srcLink: Drive.linkDrive(this.fullImage),
+                width: this.size || '780px'
             };
         }
     };
