@@ -2,7 +2,7 @@ import Vue from 'vue'
 import ImageFullPage from '@/components/EmailBody/ImageFullPage'
 import configuration from '@/contents/config';
 
-describe('ImageFullPage Component', () => {
+describe.skip('ImageFullPage Component', () => {
     let $mounted;
 
     const Constructor = Vue.extend(ImageFullPage);

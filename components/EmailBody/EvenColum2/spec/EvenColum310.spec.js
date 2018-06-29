@@ -16,11 +16,6 @@ describe('EvenColum310 Component', () => {
         }).$mount()
     })
 
-    test('snapshot', () => {
-        let $html = $mounted.$el.outerHTML
-        expect($html).toMatchSnapshot()
-    })
-
     describe('data image value', () => {
         describe('when params journee has an image', () => {
             test('should drive link is present', () => {

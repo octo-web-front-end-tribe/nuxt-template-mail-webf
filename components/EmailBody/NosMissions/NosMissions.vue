@@ -92,8 +92,8 @@
     import FAURECIA from "@/contents/missions/FAURECIA.md"
     import INVIVO from "@/contents/missions/INVIVO.md"
     import MEETIC from "@/contents/missions/MEETIC.md"
-    import PIX from "@/contents/missions/PIX.md"
-    import POLICE from "@/contents/missions/POLICE.md"
+    import PIX from "@/contents/missions/PIX_fait.md"
+    import POLICE from "@/contents/missions/POLICE_fait.md"
     import RANDSTAD from "@/contents/missions/RANDSTAD.md"
     import TEXA from "@/contents/missions/TEXA_fait.md"
 

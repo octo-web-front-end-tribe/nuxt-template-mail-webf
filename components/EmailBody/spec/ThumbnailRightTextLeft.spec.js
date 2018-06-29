@@ -2,7 +2,7 @@ import Vue from 'vue'
 import ThumbnailRightTextLeft from '@/components/EmailBody/ThumbnailRightTextLeft'
 import configuration from '@/contents/config';
 
-describe('ThumbnailRightTextLeft Component', () => {
+describe.skip('ThumbnailRightTextLeft Component', () => {
     let $mounted;
 
     const Constructor = Vue.extend(ThumbnailRightTextLeft);

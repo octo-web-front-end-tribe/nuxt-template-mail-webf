@@ -2,7 +2,7 @@ import Vue from 'vue'
 import TitleTable from '@/components/EmailBody/TitleTable'
 import configuration from '@/contents/config';
 
-describe('TitleTable Component', () => {
+describe.skip('TitleTable Component', () => {
     let $mounted;
 
     const Constructor = Vue.extend(TitleTable);

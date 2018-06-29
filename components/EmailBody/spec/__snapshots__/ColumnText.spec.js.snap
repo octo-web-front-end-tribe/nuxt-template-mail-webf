@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ColumnText Component snapshot 1`] = `
-"<tr><td bgcolor=\\"#ffffff\\"><table role=\\"presentation\\" cellspacing=\\"0\\" cellpadding=\\"0\\" border=\\"0\\" width=\\"100%\\"><tr><td style=\\"padding: 0px 10px 0px 10px; font-family: sans-serif; font-size: 15px; line-height: 140%; color: rgb(85, 85, 85);\\"><p style=\\"margin: 0px 0px 10px 0px;\\"><div class=\\"vue-component\\">
-    Je suis le fichier de mock pour les markdowns;
-</div></p></td></tr></table></td></tr>"
-`;

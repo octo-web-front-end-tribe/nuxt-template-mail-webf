@@ -1,73 +1,71 @@
-jest.mock('@/contents/parisWeb.md', () => {
+jest.mock('@/contents/bbl_jest.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/1_introduction.md', () => {
+jest.mock('@/contents/bof_nuxt.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/2_organisation.md', () => {
+jest.mock('@/contents/introduction.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/3_league.md', () => {
+jest.mock('@/contents/ref_card_archi.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/4_retd.md', () => {
+jest.mock('@/contents/ref_card_test.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/5_recrutement.md', () => {
+jest.mock('@/contents/rolland_garros.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_ANEF.md', () => {
+jest.mock('@/contents/missions/ANEF.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_CANAL.md', () => {
+jest.mock('@/contents/missions/AVIGNON.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_CM.md', () => {
+jest.mock('@/contents/missions/CANAL.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_conges.md', () => {
+jest.mock('@/contents/missions/conges.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_explo.md', () => {
+jest.mock('@/contents/missions/DISNEY.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_GRT.md', () => {
+jest.mock('@/contents/missions/FAURECIA.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_IPSEN.md', () => {
+jest.mock('@/contents/missions/INVIVO.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_meetic.md', () => {
+jest.mock('@/contents/missions/MEETIC.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_PIX.md', () => {
+jest.mock('@/contents/missions/PIX_fait.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_randstad.md', () => {
+jest.mock('@/contents/missions/POLICE_fait.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/7_missions_RG.md', () => {
+jest.mock('@/contents/missions/RANDSTAD.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/8_invitation.md', () => {
+jest.mock('@/contents/missions/TEXA_fait.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
-
-

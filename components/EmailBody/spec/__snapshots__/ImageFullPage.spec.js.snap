@@ -1,6 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ImageFullPage Component snapshot 1`] = `
-"<tr><td bgcolor=\\"#ffffff\\"><table role=\\"presentation\\" cellspacing=\\"0\\" cellpadding=\\"0\\" border=\\"0\\" width=\\"100%\\"><tr><td style=\\"font-family: sans-serif; font-size: 15px; line-height: 140%; color: rgb(85, 85, 85); padding: 10px;\\"><h1 style=\\"margin: 0px 0px 10px 0px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;\\">
-                        Truck</h1> <div style=\\"text-align: center;\\"><img src=\\"https://drive.google.com/uc?id=26T636T327\\" style=\\"width: 80%;\\"></div></td></tr></table></td></tr>"
-`;

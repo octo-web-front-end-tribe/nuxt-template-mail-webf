@@ -2,7 +2,7 @@ import Vue from 'vue'
 import EmailBody from '@/components/EmailBody'
 import configuration from '@/contents/config'
 
-describe('EmailBody Component', () => {
+describe.skip('EmailBody Component', () => {
     let $mounted
 
     const Constructor = Vue.extend(EmailBody);

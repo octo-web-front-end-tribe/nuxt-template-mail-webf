@@ -2,7 +2,7 @@ import Vue from 'vue'
 import EmailFooter from '@/components/EmailFooter'
 import configuration from '@/contents/config'
 
-describe('EmailFooter Component', () => {
+describe.skip('EmailFooter Component', () => {
     let $mounted;
 
     const Constructor = Vue.extend(EmailFooter);

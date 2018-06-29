@@ -16,11 +16,6 @@ describe('EmailButton Component', () => {
         }).$mount()
     });
 
-    test('snapshot', () => {
-        let $html = $mounted.$el.outerHTML;
-        expect($html).toMatchSnapshot()
-    });
-
     test('should texte value is set at texteSpan data attribut', () => {
         expect($mounted.texteSpan).toEqual('Coucou')
     });

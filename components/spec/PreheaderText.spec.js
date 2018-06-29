@@ -2,7 +2,7 @@ import Vue from 'vue'
 import PreheaderText from '@/components/PreheaderText'
 import configuration from '@/contents/config'
 
-describe('PreheaderText Component', () => {
+describe.skip('PreheaderText Component', () => {
     let $mounted
 
     const Constructor = Vue.extend(PreheaderText)

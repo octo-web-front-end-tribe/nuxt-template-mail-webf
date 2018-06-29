@@ -2,7 +2,7 @@ import Vue from 'vue'
 import HeroImageFlush from '@/components/EmailBody/HeroImageFlush'
 import configuration from '@/contents/config';
 
-describe('HeroImageFlush Component', () => {
+describe.skip('HeroImageFlush Component', () => {
     let $mounted;
 
     const Constructor = Vue.extend(HeroImageFlush);

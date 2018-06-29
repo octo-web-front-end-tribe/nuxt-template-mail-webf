@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import ColumnText from '@/components/EmailBody/ColumnText'
 
-describe('ColumnText Component', () => {
+describe.skip('ColumnText Component', () => {
     let $mounted;
 
     const Constructor = Vue.extend(ColumnText);

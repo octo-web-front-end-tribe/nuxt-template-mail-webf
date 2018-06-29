@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import EvenColumn200 from '@/components/EmailBody/EvenColumn3/EvenColumn170'
+import EvenColumn200 from '@/components/EmailBody/EvenColumn4/EvenColumn170'
 
 describe('EvenColumn170 Component', () => {
     let $mounted
@@ -15,11 +15,6 @@ describe('EvenColumn170 Component', () => {
                 }
             }
         }).$mount()
-    })
-
-    test('snapshot', () => {
-        let $html = $mounted.$el.outerHTML
-        expect($html).toMatchSnapshot()
     })
 
     describe('data srcImage value', () => {
