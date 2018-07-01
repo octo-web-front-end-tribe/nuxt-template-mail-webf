@@ -5,13 +5,13 @@
 
         <introduction :config="config"/>
 
-        <title-table title="Reboot de la RefCard Tests" ></title-table>
+        <title-table title="Status du reboot de la ref-card tests" ></title-table>
 
         <column-text componentName="RefCardTest"></column-text>
 
         <hero-image-flush :full-image="refcard.test.img" size="350px"></hero-image-flush>
 
-        <title-table title="Création d'une RefCard Archi"></title-table>
+        <title-table title="Status de la ref-card architecture front"></title-table>
 
         <column-text componentName="RefCardArchi"></column-text>
 

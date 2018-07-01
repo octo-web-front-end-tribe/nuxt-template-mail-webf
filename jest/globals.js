@@ -38,7 +38,7 @@ jest.mock('@/contents/missions/conges.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
-jest.mock('@/contents/missions/DISNEY.md', () => {
+jest.mock('@/contents/missions/DISNEY_fait.md', () => {
     return require('@/components/spec/MarkdownMock')
 });
 
