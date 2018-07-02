@@ -86,15 +86,15 @@
 <script>
     import ANEF from "@/contents/missions/ANEF.md"
     import AVIGNON from "@/contents/missions/AVIGNON.md"
-    import conges from "@/contents/missions/conges.md"
+    import conges from "@/contents/missions/conges_fait.md"
     import DISNEY from "@/contents/missions/DISNEY_fait.md"
     import CANAL from "@/contents/missions/CANAL.md"
     import FAURECIA from "@/contents/missions/FAURECIA.md"
-    import INVIVO from "@/contents/missions/INVIVO.md"
-    import MEETIC from "@/contents/missions/MEETIC.md"
+    import INVIVO from "@/contents/missions/INVIVO_fait.md"
+    import MEETIC from "@/contents/missions/MEETIC_fait.md"
     import PIX from "@/contents/missions/PIX_fait.md"
     import POLICE from "@/contents/missions/POLICE_fait.md"
-    import RANDSTAD from "@/contents/missions/RANDSTAD.md"
+    import RANDSTAD from "@/contents/missions/RANDSTAD_fait.md"
     import TEXA from "@/contents/missions/TEXA_fait.md"
 
     export default {
