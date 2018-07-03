@@ -7,9 +7,11 @@
 
         <title-table title="Statut du reboot de la ref-card tests" ></title-table>
 
+        <hero-image-flush :full-image="refcard.test.img" size="350px"></hero-image-flush>
+
         <column-text componentName="RefCardTest"></column-text>
 
-        <hero-image-flush :full-image="refcard.test.img" size="350px"></hero-image-flush>
+        <hero-image-flush :full-image="refcard.test.fullImage.src" :size="refcard.test.fullImage.size"></hero-image-flush>
 
         <title-table title="Statut de la ref-card architecture front"></title-table>
 
@@ -17,11 +19,15 @@
 
         <thumbnail-right-text-left :title="BOFNuxt.title" :content="BOFNuxt.content" :image="BOFNuxt.image" :linkButton="BOFNuxt.linkButton"></thumbnail-right-text-left>
 
+        <hero-image-flush :full-image="BOFNuxt.fullImage.src" :size="BOFNuxt.fullImage.size"></hero-image-flush>
+
         <thumbnail-left-text-right :title="BBLJest.title" :content="BBLJest.content" :image="BBLJest.image" :linkButton="BBLJest.linkButton"></thumbnail-left-text-right>
 
         <thumbnail-right-text-left :title="twitter.title" :content="twitter.content" :image="twitter.image" :linkButton="twitter.linkButton"></thumbnail-right-text-left>
 
         <thumbnail-left-text-right :title="sortie.title" :content="sortie.content" :image="sortie.image" :linkButton="sortie.linkButton"></thumbnail-left-text-right>
+
+        <hero-image-flush :full-image="sortie.fullImage.src" :size="sortie.fullImage.size"></hero-image-flush>
 
         <even-column-4 :title="mouvements.title" :table="mouvements.table"/>
 
