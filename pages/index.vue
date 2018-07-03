@@ -1,5 +1,6 @@
 <template>
     <div>
+        <img src="https://www.google-analytics.com/collect?v=1&tid=UA-32427720-2&cid=555&t=event&ec=email&ea=open&dp=%2Femail%2Fnewsletter&dt=NewsletterJuin2018&el=NewsletterJuin2018&cs=newsletter">
         <preheader-text :params="config.preheader"/>
         <!--
             Set the email width. Defined in two places:
