@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import EvenColumn200 from '@/components/EmailBody/EvenColumn4/EvenColumn170'
 
-describe('EvenColumn170 Component', () => {
+describe('EvenColumn200 Component', () => {
     let $mounted
 
     const Constructor = Vue.extend(EvenColumn200)

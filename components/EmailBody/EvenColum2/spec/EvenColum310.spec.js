@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import EvenColum310 from '@/components/EmailBody/EvenColum2/EvenColum310'
-import configuration from '@/contents/config'
-import Drive from '@/services/linkDrive'
 
 describe('EvenColum310 Component', () => {
     let $mounted
@@ -11,32 +9,62 @@ describe('EvenColum310 Component', () => {
     beforeEach(() => {
         $mounted = new Constructor({
             propsData: {
-                journee: configuration.table[0]
+                params: {
+                    tri: "TRI",
+                    image: "http://google.com/link/to/image.png",
+                    entree: true,
+                }
             }
         }).$mount()
     })
 
     describe('data image value', () => {
-        describe('when params journee has an image', () => {
-            test('should drive link is present', () => {
-                expect($mounted.image).toEqual("https://drive.google.com/uc?id=13jhw3_hwp9wmLmrNCWE3040JCz9-Bx2V")
+        describe('when params mouvement has an image', () => {
+            test('should use the image from params', () => {
+                expect($mounted.image).toEqual("http://google.com/link/to/image.png")
             })
         })
 
-        describe('when params journee has an empty image', () => {
+        describe('when params mouvement has an empty image', () => {
             beforeEach(() => {
-                Drive.linkDrive = jest.fn().mockReturnValueOnce("")
-
                 $mounted = new Constructor({
                     propsData: {
-                        journee: configuration.table[0]
+                        params: {
+                            image: "",
+                        }
                     }
                 }).$mount()
             })
-
-            test('should alternative image is used', () => {
+            test('should use alternative image', () => {
                 expect($mounted.image).toEqual("http://placehold.it/310")
             })
         })
+    });
+
+    describe('data emojis value', () => {
+        describe('when mouvement entree value is true', () => {
+            test('should be 🍾 emoji', () => {
+                expect($mounted.emoji1).toEqual("🍾")
+                expect($mounted.emoji2).toEqual("🍾")
+            })
+        });
+
+        describe('when mouvement entree value is false', () => {
+            beforeEach(() => {
+                $mounted = new Constructor({
+                    propsData: {
+                        params: {
+                            image: "",
+                            entree: false,
+                        }
+                    }
+                }).$mount()
+            });
+
+            test('should be 😭 emoji', () => {
+                expect($mounted.emoji1).toEqual("😭")
+                expect($mounted.emoji2).toEqual("😭")
+            })
+        });
     });
 })
