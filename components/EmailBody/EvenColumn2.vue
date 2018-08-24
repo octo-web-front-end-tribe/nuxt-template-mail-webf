@@ -20,12 +20,12 @@
                         <div style="text-align:left">
                             <h2 style="margin: 0px 10px 10px; font-family: sans-serif; font-size: 24px; line-height: 125%; color: rgb(20, 160, 192); font-weight: bold;">{{title}}</h2>
                         </div>
-                        <even-colum310 :params="table[0]"/>
+                        <even-column310 :params="table[0]"/>
                         <!--[if mso]>
                         </td>
                         <td align="left" valign="top" width="330">
                         <![endif]-->
-                        <even-colum310 :params="table[1]"/>
+                        <even-column310 :params="table[1]"/>
                         <!--[if mso]>
                         </td>
                         </tr>
@@ -44,11 +44,11 @@
     <!--&lt;!&ndash; 2 Even Columns : END &ndash;&gt;-->
 </template>
 <script>
-    import EvenColum310 from './EvenColum2/EvenColum310'
+    import EvenColumn310 from './EvenColumn2/EvenColumn310'
 
     export default {
         name: 'even-column-2',
-        components: {EvenColum310},
+        components: {EvenColumn310},
         props: ['title', 'table']
     }
 </script>

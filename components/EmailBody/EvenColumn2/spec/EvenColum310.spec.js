@@ -1,10 +1,10 @@
 import Vue from 'vue'
-import EvenColum310 from '@/components/EmailBody/EvenColum2/EvenColum310'
+import EvenColumn310 from '@/components/EmailBody/EvenColumn2/EvenColumn310'
 
-describe('EvenColum310 Component', () => {
+describe('EvenColumn310 Component', () => {
     let $mounted
 
-    const Constructor = Vue.extend(EvenColum310)
+    const Constructor = Vue.extend(EvenColumn310)
 
     beforeEach(() => {
         $mounted = new Constructor({

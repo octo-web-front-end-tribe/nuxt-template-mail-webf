@@ -32,7 +32,7 @@
     import EmojiMouvement from '@/services/emojiMouvement';
 
     export default {
-        name: 'even-colum310',
+        name: 'even-column310',
         props: ['params'],
 
         data() {
