@@ -56,6 +56,7 @@
                                         <p style="margin: 0 0 10px 0;">
                                             <component :is="component"/>
                                         </p>
+                                        <technos :liste="technos"/>
                                         <br>
                                     </td>
                                 </tr>
@@ -97,6 +98,8 @@
     import RANDSTAD from "@/contents/missions/RANDSTAD_fait.md"
     import TEXA from "@/contents/missions/TEXA_fait.md"
 
+    import Technos from '@/components/EmailBody/NosMissions/Technos'
+
     export default {
         name: 'nos-missions',
         components: {
@@ -111,7 +114,8 @@
             PIX,
             POLICE,
             RANDSTAD,
-            TEXA
+            TEXA,
+            Technos,
         },
         props: ['mission'],
 
@@ -119,7 +123,8 @@
             return {
                 component: this.mission.texte,
                 title: this.mission.name,
-                peoples: this.mission.peoples
+                peoples: this.mission.peoples,
+                technos: this.mission.technos,
             }
         }
     };
