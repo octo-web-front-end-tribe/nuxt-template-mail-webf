@@ -5,17 +5,19 @@
 
         <introduction :config="config"/>
 
-        <title-table title="Statut du reboot de la ref-card tests" ></title-table>
+        <title-table title="À la découverte des architectures du front"></title-table>
 
-        <hero-image-flush :full-image="refcard.test.img" size="350px"></hero-image-flush>
+        <column-text componentName="RefCardArchi"></column-text>
+
+
+        <title-table title="Refcard Test : où en sommes-nous ?" ></title-table>
 
         <column-text componentName="RefCardTest"></column-text>
 
-        <hero-image-flush :full-image="refcard.test.fullImage.src" :size="refcard.test.fullImage.size"></hero-image-flush>
 
-        <title-table title="Statut de la ref-card architecture front"></title-table>
+        <title-table title="Les vacances des WebF !!" ></title-table>
 
-        <column-text componentName="RefCardArchi"></column-text>
+        <hero-image-flush :full-image="vacances.img" :size="vacances.size"></hero-image-flush>
 
         <even-column-2 :title="mouvements.title" :table="mouvements.table"/>
 
@@ -61,12 +63,10 @@
         data() {
             return {
                 refcard: this.config.refcard,
-                BBLJest: this.config.BBLJest,
-                BOFNuxt: this.config.BOFNuxt,
-                twitter: this.config.twitter,
-                sortie: this.config.sortie,
                 mouvements: this.config.mouvements,
-                missions: this.config.missions
+                missions: this.config.missions,
+                vacances: this.config.vacances,
+
             };
         }
     };
