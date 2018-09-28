@@ -30,7 +30,7 @@
                                             <img :src="people.url_images" width="100" height="" border="0"
                                                  alt="alt_text"
                                                  class="center-on-narrow"
-                                                 style="width: 100%; max-width: 100px; height: 100px; margin-top: 20px; margin-bottom: 5px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
+                                                 style="width: 100%; max-width: 80px; height: 80px; margin-top: 20px; margin-bottom: 5px; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
                                             <h2 style="margin: 0; font-family: sans-serif; font-size: 20px; line-height: 125%; color: rgb(20, 160, 192); font-weight: normal;">
                                                 {{people.trigramme}}</h2>
                                         </div>
