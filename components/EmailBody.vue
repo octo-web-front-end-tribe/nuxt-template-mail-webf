@@ -9,6 +9,8 @@
 
         <column-text componentName="RefCardArchi"></column-text>
 
+        <hero-image-flush :full-image="refcard.archi.img" :size="refcard.archi.size"></hero-image-flush>
+
 
         <title-table title="Refcard Test : où en sommes-nous ?" ></title-table>
 
