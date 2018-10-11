@@ -1,5 +1,5 @@
 <template>
-    <img :src="imgSrc" style="width: 100px">
+    <img :src="imgSrc" :alt="altText" style="width: 100px">
 </template>
 
 <script>
@@ -7,10 +7,11 @@
 
     export default {
         name: 'logo',
-        props: ['driveImageID'],
+        props: ['driveImageID', 'alt'],
         data() {
             return {
-                imgSrc: Drive.linkDrive(this.driveImageID)
+                imgSrc: Drive.linkDrive(this.driveImageID),
+                altText: this.alt
             }
         }
     };

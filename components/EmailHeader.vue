@@ -4,7 +4,7 @@
            style="max-width: 780px;">
         <tr>
             <td style="padding: 20px 0; text-align: center">
-                <hero-image-flush :fullImage="params.fullImage"/>
+                <hero-image-flush :fullImage="params.fullImage" :alt="params.alt"/>
             </td>
         </tr>
     </table>

@@ -48,7 +48,8 @@
             return {
                 config: configuration,
                 email_footer_params: {
-                    driveImageID: configuration.logoWebF.linkID
+                    driveImageID: configuration.logoWebF.linkID,
+                    alt: configuration.logoWebF.alt
                 }
             };
         }

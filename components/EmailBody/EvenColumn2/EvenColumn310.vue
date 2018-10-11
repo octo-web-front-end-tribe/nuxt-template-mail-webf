@@ -8,7 +8,7 @@
                            style="font-size: 14px;text-align: left;">
                         <tr>
                             <td style="text-align: center">
-                                <img :src="image" width="100" height="" border="0" alt="alt_text"
+                                <img :src="image" :alt="alt" width="100" height="" border="0"
                                      class="center-on-narrow"
                                      style="width: 100%; max-width: 100px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #555555;">
                             </td>
@@ -38,6 +38,7 @@
         data() {
             return {
                 image: this.params.image || 'http://placehold.it/310',
+                alt: this.params.tri,
                 emoji1: EmojiMouvement.emoji(this.params.entree),
                 emoji2: EmojiMouvement.emoji(this.params.entree)
             }

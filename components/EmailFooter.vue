@@ -12,7 +12,7 @@
                         <tr>
                             <td style="padding: 40px; padding-right: 10px; padding-left: 10px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 140%; color: #ffffff;">
                                 <p style="margin: 0;">
-                                    <logo :driveImageID="params.driveImageID"/>
+                                    <logo :driveImageID="params.driveImageID" :alt="params.alt"/>
                                     <br>
                                     <b style="font-size: large">There is a better Web</b>
                                     <br>
