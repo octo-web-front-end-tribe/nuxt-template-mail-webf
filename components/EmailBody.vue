@@ -27,10 +27,10 @@
         <hero-image-flush :full-image="twitter.first.img" :size="twitter.first.size" :link="twitter.first.link" :alt="twitter.first.alt"></hero-image-flush>
         <hero-image-flush :full-image="twitter.second.img" :size="twitter.second.size" :link="twitter.second.link" :alt="twitter.second.alt"></hero-image-flush>
         <hero-image-flush :full-image="twitter.third.img" :size="twitter.third.size" :link="twitter.third.link" :alt="twitter.third.alt"></hero-image-flush>
-        <hero-image-flush :full-image="twitter.fourth.img" :size="twitter.fourth.size" :link="twitter.fourth.link" :alt="twitter.fourth.alt"></hero-image-flush>
-        <hero-image-flush :full-image="twitter.fifth.img" :size="twitter.fifth.size" :link="twitter.fifth.link" :alt="twitter.fifth.alt"></hero-image-flush>
 
-        <even-column-2 :title="mouvements.title" :table="mouvements.table"/>
+        <even-column-2 :title="mouvements.title" :table="mouvements.table1"/>
+
+        <even-column-3 :table="mouvements.table2"/>
 
         <title-table title="Nos missions"/>
 
